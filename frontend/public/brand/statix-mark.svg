@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="statix">
+  <title>statix</title>
+  <defs>
+    <!-- Brand emerald teal #00C259 anchors the shaded end of the gradient -->
+    <linearGradient id="statix-up" x1="105" y1="32" x2="408" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00FF72"/>
+      <stop offset="0.5" stop-color="#00DD66"/>
+      <stop offset="1" stop-color="#00C259"/>
+    </linearGradient>
+    <!-- Brand institutional blue #0044FF anchors the top of the gradient -->
+    <linearGradient id="statix-down" x1="256" y1="272" x2="256" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0044FF"/>
+      <stop offset="1" stop-color="#1052FF"/>
+    </linearGradient>
+  </defs>
+  <!-- Up triangle: outer bounds x104.5-407.5, y32-240, corner radius 48 -->
+  <polygon points="255.5,80 359.5,192 152.5,192"
+           fill="url(#statix-up)" stroke="url(#statix-up)"
+           stroke-width="96" stroke-linejoin="round"/>
+  <!-- Down triangle: outer bounds x104.5-407.5, y272-480, corner radius 48 -->
+  <polygon points="152.5,320 359.5,320 255.5,432"
+           fill="url(#statix-down)" stroke="url(#statix-down)"
+           stroke-width="96" stroke-linejoin="round"/>
+</svg>
